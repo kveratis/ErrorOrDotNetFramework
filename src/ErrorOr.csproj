@@ -12,6 +12,19 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <PackageId>ErrorOrDotNetFramework</PackageId>
+    <Version>1.9.0</Version>
+    <Authors>kveratis</Authors>
+    <Description>ErrorOr library back ported to .NET Framework 4.8. A simple, fluent discriminated union of an error or a result.</Description>
+    <PackageTags>Result,Results,ErrorOr,Error,Handling</PackageTags>    
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon-square.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>main</RepositoryBranch>
+    <RepositoryUrl>https://github.com/kveratis/ErrorOrDotNetFramework.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/kveratis/ErrorOrDotNetFramework</PackageProjectUrl>
+    <PackageOutputPath>../artifacts/</PackageOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,6 +61,13 @@
     <Compile Include="IError.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../assets/icon-square.png" Pack="true" Visible="false" PackagePath="" />
+    <None Include="../README.md" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Tasks.Pack" Version="6.8.0" PrivateAssets="all" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
