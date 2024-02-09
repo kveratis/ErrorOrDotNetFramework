@@ -4,17 +4,16 @@ This package is a back ported version of ErrorOr to .NET Framework 4.8 to facili
 
 <img src="assets/icon.png" alt="drawing" width="700px"/></br>
 
-[![NuGet](https://img.shields.io/nuget/v/erroror.svg)](https://www.nuget.org/packages/erroror)
+[![NuGet](https://img.shields.io/nuget/v/ErrorOrDotNetFramework.svg)](https://www.nuget.org/packages/ErrorOrDotNetFramework)
 
-[![Build](https://github.com/amantinband/error-or/actions/workflows/build.yml/badge.svg)](https://github.com/amantinband/error-or/actions/workflows/build.yml) [![publish ErrorOr to nuget](https://github.com/amantinband/error-or/actions/workflows/publish.yml/badge.svg)](https://github.com/amantinband/error-or/actions/workflows/publish.yml)
+[![Build](https://github.com/kveratis/ErrorOrDotNetFramework/actions/workflows/build.yml/badge.svg)](https://github.com/kveratis/ErrorOrDotNetFramework/actions/workflows/build.yml) [![publish ErrorOrDotNetFramework to nuget](https://github.com/kveratis/ErrorOrDotNetFramework/actions/workflows/publish.yml/badge.svg)](https://github.com/kveratis/ErrorOrDotNetFramework/actions/workflows/publish.yml)
 
-[![GitHub contributors](https://img.shields.io/github/contributors/amantinband/error-or)](https://GitHub.com/amantinband/error-or/graphs/contributors/) [![GitHub Stars](https://img.shields.io/github/stars/amantinband/error-or.svg)](https://github.com/amantinband/error-or/stargazers) [![GitHub license](https://img.shields.io/github/license/amantinband/error-or)](https://github.com/amantinband/error-or/blob/main/LICENSE)
-[![codecov](https://codecov.io/gh/amantinband/error-or/branch/main/graph/badge.svg?token=DR2EBIWK7B)](https://codecov.io/gh/amantinband/error-or)
+[![GitHub contributors](https://img.shields.io/github/contributors/kveratis/ErrorOrDotNetFramework)](https://GitHub.com/kveratis/ErrorOrDotNetFramework/graphs/contributors/) [![GitHub Stars](https://img.shields.io/github/stars/kveratis/ErrorOrDotNetFramework.svg)](https://github.com/kveratis/ErrorOrDotNetFramework/stargazers) [![GitHub license](https://img.shields.io/github/license/kveratis/ErrorOrDotNetFramework)](https://github.com/kveratis/ErrorOrDotNetFramework/blob/main/LICENSE)
 ---
 
 ### A simple, fluent discriminated union of an error or a result.
 
-`dotnet add package ErrorOr`
+`dotnet add package ErrorOrDotNetFramework`
 
 </div>
 
@@ -655,10 +654,6 @@ public class ValidationBehavior<TRequest, TResponse>(IValidator<TRequest>? valid
 
 If you have any questions, comments, or suggestions, please open an issue or create a pull request 🙂
 
-# Credits 🙏
-
-- [OneOf](https://github.com/mcintyre321/OneOf/tree/master/OneOf) - An awesome library which provides F# style discriminated unions behavior for C#
-
 # License 🪪
 
-This project is licensed under the terms of the [MIT](https://github.com/mantinband/error-or/blob/main/LICENSE) license.
+This project is licensed under the terms of the [MIT](https://github.com/kveratis/ErrorOrDotNetFramework/blob/main/LICENSE) license.
